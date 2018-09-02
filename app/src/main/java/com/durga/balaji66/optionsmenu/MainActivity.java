@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity  {
 
                 break;
             case R.id.logout:
+                finishAffinity();
                 Toast.makeText(getApplicationContext(),"You clicked logout ",Toast.LENGTH_LONG).show();
 
                 break;
